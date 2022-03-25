@@ -36,6 +36,7 @@ test("Best-Sellers List and Product Page", async () => {
     await nintendo.click(nintendo.viewPicture);
     await nintendo.driver.sleep(2000);
     await nintendo.click(nintendo.nextSlide);
+    await nintendo.driver.sleep(1000);
     await nintendo.click(nintendo.playVideo);
     await nintendo.driver.sleep(9250);
     await nintendo.click(nintendo.exitVideo);
